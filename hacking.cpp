@@ -13,9 +13,9 @@ using namespace std;
 
 void clear(){
 	if (os == "nt"){
-		system("clear");
-	} else {
 		system("cls");
+	} else {
+		system("clear");
 	}
 }
 
@@ -41,7 +41,7 @@ int main() {
 		system("sleep 1");
 		clear();
 		
-		cout << "TOOLS HACKING----------------\n";
+		cout << "\nTOOLS HACKING----------------\n";
 		cout << "\nUsername : " << username << endl << endl;
 		cout << "\t[1]. Air Crack\n";
 		cout << "\t[2]. Ddos Attack\n";
