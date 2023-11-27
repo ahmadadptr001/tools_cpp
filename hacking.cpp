@@ -81,4 +81,6 @@ int main() {
 	} else {
 		cout << "\n\npassword incorrect!\n";
 	}
+
+	return 0;
 }
