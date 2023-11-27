@@ -37,7 +37,7 @@ int main() {
 	
 	if (password == "bagas ganteng"){
 		
-		cout << "\npassword is correct!";
+		cout << "\npassword is correct!\n";
 		system("sleep 1");
 		clear();
 		
